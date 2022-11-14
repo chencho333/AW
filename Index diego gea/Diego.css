@@ -1,0 +1,24 @@
+/*
+    Autor: Diego Gea Asensio
+    Fecha: 11/11/2022
+    Indice de diario de trabajo
+*/
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+}
+
+body{
+    background-image: url(fondo.png);
+    
+}
+
+.practicas{
+    background-color: antiquewhite;
+    float: left;
+    padding: 0%;
+    overflow: hidden;
+    margin: 30px;
+    border: 3cm;
+}
+

@@ -1,0 +1,21 @@
+/*
+    Autor: Diego Gea Asensio
+    Fecha: 24/10/2022
+*/
+
+body{
+    background-color: rgb(red, green, blue);
+    border: 1px ;
+    border-radius: 20%;
+}
+.Principal >img{
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+}
+
+.Principal{
+    width: 80%;
+    float: left;
+    margin: auto;
+}
