@@ -1,0 +1,42 @@
+/*
+    Autor: Diego Gea Asensio
+    Fecha: 08/11/2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    height: 1600px;
+    background-image: linear-gradient(to bottom, red, blue, white);
+}
+header,footer{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    text-shadow: -5px -5px 5px red;
+    background-image: radial-gradient(white, green);
+}
+
+footer{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+}
+
+iframe{
+    width: 1200px;
+    border-radius: 10px;
+    height: 1000px;
+}
+

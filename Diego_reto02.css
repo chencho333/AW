@@ -1,0 +1,54 @@
+/*
+    Autor: Diego Gea Asensio
+    Fecha: 14/11/2022
+    Reto 02
+*/
+
+header{
+    color: white;
+    justify-content: center;
+    background-color: #774BBE;
+    border-color: antiquewhite;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, 
+    sans-serif;
+    }
+}
+.temas{
+  display: flex;
+  background-color: none;
+  padding: 10px;
+  justify-content: center;
+}
+
+.temas div{
+    background-color: none;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+body img{
+    height: 120px;
+    border-radius: 7%;
+    width: auto;
+    align-content: center space-around;
+}
+
+footer{
+    background-color: #774BBE;
+    text-shadow: -5px 5px 5px black;
+    color: white;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, 
+    sans-serif;
+}
+body{
+    justify-content: center;
+    margin: 60px;
+}
+
