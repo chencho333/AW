@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="xiego_12_21112022.css">
+</head>
+<body>
+    <h1>Formulario HTML5</h1>
+    <form action="contacto.php" method="post" class="Formulario" target="_blank">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+        <textarea name="area" id="area" cols="30" rows="10"></textarea>
+        <fieldset>
+            <legend>Campos especiales</legend>
+            <input type="color" name="color" id="color">
+            <input type="datetime-local" name="fecha" id="fecha">
+            <input type="file" name="archivo" id="archivo">
+            <input type="range" name="rango" id="rango" value="50">
+        </fieldset>
+        <select name="Lista" id="Lista" multiple>
+            <option value="Maserati">Maserati</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Lamborghini" selected>Lamborghini</option>
+            <option value="Pagani">Pagani</option>
+        </select>
+        <div class="CajaPass">
+            <input type="password" name="pass" id="pass" placeholder="contraseña">
+            <input type="checkbox" onclick="Mostrar()">
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

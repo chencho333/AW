@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="diego_12_21112022.css">
+</head>
+<body>
+    <h1>Formulario/ Encuesta popular</h1>
+    <form action="contacto.php" method="post" class="Formulario" target="_blank">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+        <textarea name="area" id="area" cols="30" rows="10"></textarea>            
+        <fieldset>
+            <legend>Campos especiales</legend>
+            <input type="color" name="color" id="color">
+            <input type="datetime-local" name="fecha" id="fecha">
+            <input type="range" name="rango" id="rango" value="50">
+            <input type="correo electronico" class="correo" name="correo electronico">
+            <input type="correo electronico" name="correo electronico" id="correo" placeholder="correo electronico">
+            <input type="DNI" name="DNI" id="DNI" placeholder="Introduzca su identificacion">
+            <input type="checkbox" onclick="Mostrar()">
+            <input type="file" name="archivo" id="archivo" placeholder="Adjuntar imagen">
+        </fieldset>
+        <label class="marcas" for="marcas">Marca favorita</label>
+        <select name="Lista" id="Lista" multiple>
+            <option value="Maserati">Maserati</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Lamborghini" selected>Lamborghini</option>
+            <option value="Pagani">Pagani</option>
+        </select>
+        <label class="tipos" for="Tipoalimentation">Tipos de alimentacion</label>
+        <select name="Tipos de alimentacion" id="Tipos">
+            <option value="Gasolina">Gasolina</option>
+            <option value="Diesel">Diesel</option>
+            <option value="Electrico">Electrico</option>
+            <option value="Hidrogeno">Hidrogeno</option>
+        </select>
+        <textarea placeholder="Anotaciones o comentarios que compartir" rows="3" name="mensaje"></textarea>
+        <input type="submit" value="Enviar">
+
+
+
+
+    </form>
+
+</body>
+</html>

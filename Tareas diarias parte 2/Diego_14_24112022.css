@@ -1,0 +1,53 @@
+/*
+    Autor: Diego Gea Asensio
+    Fecha: 24/11/2022
+*/
+
+*{
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+*::selection{
+    background: red;
+}
+
+article{
+    font-size: 1.5em;
+    margin-top: 50px;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 3px solid rgb(208, 165, 165);
+}
+
+p::first-letter{
+    font-size: 3em;
+    color: brown;
+}
+main{
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgb(185, 101, 23), rgb(255, 255, 255));
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#titulo2{
+    color: rgba(36, 30, 194, 0.251);
+    text-transform: lowercase;
+}
+
+.titulo2::before, .titulo2::after{
+    content: "''";
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+p::first-line{
+    color: rgba(250, 248, 240, 0.54);
+}

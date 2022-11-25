@@ -1,0 +1,51 @@
+/*
+    Autor: Diego Gea Asensio
+    Fecha: 15/11/2022
+    Practica 11
+*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: brown;
+}
+
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-image: linear-gradient(to left, rgb(142, 142, 116)
+    ,rgb(169, 128, 71));
+    box-shadow: 5px 5px 5px gray;
+}
+
+th{
+    background-color: black;
+    color: wheat;
+}
+
+caption{
+    padding-top: 20px;
+    font-style: italic;
+    color: beige;
+}
+
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pulgadas{
+    text-align: center;
+}
+
+th img{
+    width: 65px;
+}

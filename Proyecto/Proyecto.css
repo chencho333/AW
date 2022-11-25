@@ -4,6 +4,11 @@
     Proyecto pagina web
 */
 *{
-    margin: 2px;
-    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+h1{
+    margin-right: 95%;
+    margin-left: 5%;
 }
